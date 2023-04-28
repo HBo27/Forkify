@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forkify // Search over 1,000,000 recipes</title>
+    <link rel="stylesheet" href="forkify.css">
+    <link rel="icon" href="logo-f.png">
+    <script src="https://kit.fontawesome.com/1aa37ac446.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------------------------header start---------------------------->
+    <div class="container">
+        <header>
+            <div>
+                <img src="logo-forkify.png" id="logo" alt="logo-forkify">
+            </div>
+            <div>
+                <form class="form">
+                    <input class="search-form" type="search" placeholder="Search over 1,000,000 recipes...">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></button>
+                </form>
+            </div>
+            <nav>
+                <div class="nav-icon">
+                    <i class="fa-regular fa-pen-to-square icon-edit"></i>
+                    <h3>ADD RECIPE</h3>
+                </div>
+                <div class="nav-icon">
+                    <i class="fa-regular fa-bookmark icon-edit"></i>
+                    <h3>BOOKMARKS</h3>
+                </div>
+            </nav>
+        </header>
+        <!-------------------------header end----------------------------->
+        <main>
+            <aside>
+                <p class="footer-text">© Copyright by <a href="#">Jonas Schmedtmann</a>. Use for learning or your
+                    portfolio. Don't use to teach. Don't claim
+                    as your own.</p>
+            </aside>
+            <section class="main-section">
+                <p><i class="fa-regular fa-face-smile smile-icon"></i><span class="main-section-text">Start by searching
+                        for a recipe or an ingredient. Have fun!</span></p>
+            </section>
+            <div class="model">
+                <div class="white-table">
+                    <div class="x-icon">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                    <div class="input-list">
+                        <div class="recipe">
+                            <h3>RECIPE DATA</h3>
+                            <div class="grid">
+                                <label class="label-model">Title</label>
+                                <input type="text" value="TEST23" name="title" class="input-model">
+                                <label class="label-model">URL</label>
+                                <input type="text" value="TEST23" name="url" class="input-model">
+                                <label class="label-model">Image URL</label>
+                                <input type="text" value="TEST23" name="image" class="input-model">
+                                <label class="label-model">Publisher</label>
+                                <input type="text" value="TEST23" name="publish" class="input-model">
+                                <label class="label-model">Prep time</label>
+                                <input type="text" value="TEST23" name="perp" class="input-model">
+                                <label class="label-model">Servings</label>
+                                <input type="text" value="TEST23" name="serving" class="input-model">
+                            </div>
+
+                        </div>
+                        <div class="ingredients">
+                            <h3>INGREDIENTS</h3>
+                            <div class="grid">
+                                <label class="label-model">Ingredient 1</label>
+                                <input type="text" value="TEXT23" name="title" class="input-model">
+                                <label class="label-model">Ingredient 2</label>
+                                <input type="text" value="TEXT23" name="url" class="input-model">
+                                <label class="label-model">Ingredient 3</label>
+                                <input type="text" value="TEXT23" name="image" class="input-model">
+                                <label class="label-model">Ingredient 4</label>
+                                <input type="text" value="TEXT23" name="publish" class="input-model">
+                                <label class="label-model">Ingredient 5</label>
+                                <input type="text" value="TEXT23" name="perp" class="input-model">
+                                <label class="label-model">Ingredient 6</label>
+                                <input type="text" value="TEXT23" name="serving" class="input-model">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-btn-upload">
+                        <button type="button" class="upload-btn"><i class="fa-solid fa-cloud-arrow-up"></i><span
+                                class="span-upload">UPLOAD</span></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="forkify.js"></script>
+</body>
+
+</html>
